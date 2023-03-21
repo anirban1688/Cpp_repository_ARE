@@ -1,3 +1,6 @@
+// This file illustrates the application of private and protected access specifiers. Execute the code and see what happens. Change the private keyword to protected and 
+// re-run the code. Check what happens
+
 # include <iostream>
 # include <string>
 using namespace std;
