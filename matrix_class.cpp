@@ -34,10 +34,10 @@ public:
 		}
 	}
 
-	matrix operator+(matrix mat2)
+	matrix operator+(matrix mat2) // Operator overloading
 	{
 		matrix m(0);
-    	for(i=0;i<3;i++)
+    		for(i=0;i<3;i++)
 		{
 			for(j=0;j<3;j++)
 				m.a[i][j]=a[i][j] + mat2.a[i][j];
